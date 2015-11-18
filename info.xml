@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<extension key="com.github.nocontributionreceipt" type="module">
+  <file>nocontributionreceipt</file>
+  <name>No Contribution Receipt</name>
+  <description>This civicrm extension unsets the Send Receipt? checkbox when adding/editing a contribution so it doesn't send a email automatically.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Andrei Mondoc</author>
+    <email>andreimondoc at gmail.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/mecachisenros/nocontributionreceipt</url>
+    <url desc="Documentation">https://github.com/mecachisenros/nocontributionreceipt</url>
+    <url desc="Support">https://github.com/mecachisenros/nocontributionreceipt</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2015-11-18</releaseDate>
+  <version>1.0</version>
+  <develStage>Always test first!</develStage>
+  <compatibility>
+    <ver>4.6</ver>
+  </compatibility>
+  <comments>In reply to a stackexchange question - http://civicrm.stackexchange.com/questions/7071/how-to-disable-email-notifications-when-confirming-a-donation-in-civ$
+  <civix>
+    <namespace>CRM/Nocontributionreceipt</namespace>
+  </civix>
+</extension>
